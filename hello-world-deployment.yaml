@@ -16,5 +16,6 @@ spec:
         # website::tag::2:: The container runs a Python webapp on port 5000 that responds with "Hello, World!"
         - name: hello-world
           image: docker.io/training/webapp:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
