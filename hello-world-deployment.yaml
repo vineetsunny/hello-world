@@ -15,6 +15,6 @@ spec:
       containers:
         # website::tag::2:: The container runs a Python webapp on port 5000 that responds with "Hello, World!"
         - name: hello-world
-          image: bashofmann/rancher-demo:1.0.0
+          image: training/webapp:latest
           ports:
             - containerPort: 5000
